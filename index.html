@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
     <link rel="stylesheet" href="style.css">
+    <title>To-Do List App</title>
 </head>
 <body>
-    <div class="container">
-        <div class="todo-app"></div>
-        <h2>To-Do List <img src="img/icon.png" alt="icon-to-do-list"></h2>
+    <h2>To-Do List <img src="img/icon.png" alt="icon-to-do-list"></h2>
 
-    </div>
+    <form>
 
+        <label for="task-input">Enter a new task:</label>
+        <input type="text" id="task-input" name="task-input"/>
+        <button>Add</button>
+
+    </form>
+
+    <ul id="task-list"></ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
